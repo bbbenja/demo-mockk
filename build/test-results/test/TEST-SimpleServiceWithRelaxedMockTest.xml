@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SimpleServiceWithRelaxedMockTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-07-31T15:39:16" hostname="bcousin1.mame.code-troopers.com" time="0.028">
+  <properties/>
+  <testcase name="assert action1 with no mock do not fail()" classname="SimpleServiceWithRelaxedMockTest" time="0.002"/>
+  <testcase name="verify action4 calls()" classname="SimpleServiceWithRelaxedMockTest" time="0.015"/>
+  <testcase name="verify action4 calls order()" classname="SimpleServiceWithRelaxedMockTest" time="0.009"/>
+  <system-out><![CDATA[do something
+do other something
+do something
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
